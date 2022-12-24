@@ -301,40 +301,81 @@ bro bro Bro bro bro bro bro bro bro bro Bro bro bro Bro bro bro Bro bro bro Bro
 bro bro Bro bro bro bro bro bro bro Bro bro bro Bro bro bro Bro bro bro Bro bro 
 bro bro bro bro bro Bro 
 ```
+
 ### C Alphabet
 <hr>
+<!----------------------->
 
-#### C <!----ls>
-```
-#include <stdio.h>
+#### C
+<pre>#include &lt;stdio.h&gt;
+int main(void){
+    printf("Hello, world!\n");
+    return 0;
+}</pre>
 
-int main() {
-printf("Hello World");
-return 0;
-}
-```
-#### C++
-```
-#include<iostream>
-using namespace std;
+#### C#</h4>
+<pre>using System;
+class HelloWorld{
+	static void Main(){
+		System.Console.WriteLine("Hello, World!");
+	}
+}</pre>
+
+#### C++ (ISO)</h4>
+<pre class="lang:c decode:true">#include &lt;iostream&gt;
 
 int main(){
-    cout<<"Hello World!";
-    return 0;
-}
-```
-#### C#
-```
-namespace HelloWorld
+	std::cout &lt;&lt; "Hello, World!\n";
+}</pre>
+#### C++ / Cli</h4>
+<pre>int main(){
+	System::Console::WriteLine("Hello, World!");
+}</pre>
+#### C++ Managed (.Net)</h4>
+<pre class="toolbar:2 lang:c++ decode:true">#using &lt;mscorlib.dll&gt;
+
+using namespace System;
+int wmain(){
+	Console::WriteLine("Hello, World!");
+}</pre>
+#### C#</h4>
+<pre class="toolbar:2 lang:c# decode:true">class HelloWorldApp{
+	static void Main(){
+		System.Console.WriteLine("Hello, world!");
+	}
+}</pre>
+#### Caché Server Pages (CSP)</h4>
+<pre class="lang:c decode:true">Class Test.Hello Extends %CSP.Page [ ProcedureBlock ]
 {
-    class Hello {         
-        static void Main(string[] args)
-        {
-            System.Console.WriteLine("Hello World!");
-        }
-    }
-}
-```
+     ClassMethod OnPage() As %Status
+     {
+         &amp;html&lt;&lt;html&gt;
+         &lt;head&gt;
+         &lt;/head&gt;
+         &lt;body&gt;&gt;
+         Write "Hello, world!",!
+         &amp;html&lt;&lt;/body&gt;
+         &lt;/html&gt;&gt;
+         Quit $$OK
+     }
+}</pre>
+#### Caml light</h4>
+<pre>(* Hello World *)
+
+let hello =
+	print_string "Hello World!";
+	;;</pre>
+#### CCL</h4>
+<pre> call echo("Hello, world!")</pre>
+#### Ceylon</h4>
+<pre class="toolbar:2 lang:java decode:true ">shared void run() {
+    print("Hello, World!");
+}</pre>
+#### Ch</h4>
+<pre class=""> printf("Hello, world!\n");</pre>
+#### Chapel</h4>
+<pre class="toolbar:2 lang:c decode:true ">writeln("Hello, world!");</pre>
+
 #### Chicken
 ```
 chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken
@@ -397,17 +438,116 @@ chicken chicken chicken chicken chicken chicken chicken chicken
 chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken
 chicken chicken chicken chicken chicken chicken
 ```
-#### Cobol
-```
-IDENTIFICATION DIVISION.
-PROGRAM-ID. Hello-world.
+#### CHILL</h4>
+<pre class="lang:default decode:true ">Hello:
+MODULE
+
+WRITETEXT(STDOUT, "Hello World!%/");
+
+END Hello;</pre>
+#### Chuck</h4>
+<pre class="toolbar:2 lang:c decode:true"> &lt;&lt;&lt;"Hello World"&gt;&gt;&gt;</pre>
+#### Chrome</h4>
+<pre>namespace HelloWorld;
+     interface
+     type
+    HelloClass = class
+    public
+      class method Main;
+     end;
+     implementation
+     class method HelloClass.Main;
+  begin
+    System.Console.WriteLine('Hello, world!');
+  end;
+
+end.</pre>
+#### Cil</h4>
+<pre>.method public static void Main() cil managed{
+	.entrypoint
+	.maxstack 8
+	ldstr "Hello, World!"
+	call void [mscorlib]System.Console::WriteLine(string)
+	ret
+}</pre>
+#### Clarion</h4>
+<pre>PROGRAM
+MAP
+END
+CODE
+MESSAGE('Hello, world!!','Clarion')
+RETURN</pre>
+#### Clean</h4>
+<pre>module hello
+
+Start = "Hello, World!"</pre>
+#### Clist</h4>
+<pre>PROC 0
+WRITE Hello, World!</pre>
+#### Clipper</h4>
+<pre>? "Hello, World!"</pre>
+#### Clu</h4>
+<pre>start_up = proc ()
+	po: stream := stream$primary_output ()
+	stream$putl (po, "Hello, World!")
+end start_up</pre>
+#### Cobol</h4>
+<pre>IDENTIFICATION DIVISION.
+PROGRAM-ID. HELLO-WORLD.
+
+ENVIRONMENT DIVISION.
+
+DATA DIVISION.
+
 PROCEDURE DIVISION.
-    DISPLAY "Hello World".    .
-```
-#### CoffeeScript
-```
-console.lof 'Hello World'
-```
+DISPLAY "Hello, World!".
+STOP RUN.</pre>
+#### Cocoa or GnuStep (Objective C)</h4>
+<pre class="toolbar:2 lang:objc decode:true">#import &lt;Cocoa/Cocoa.h&gt;
+@interface hello : NSObject {
+}
+@end
+
+@implementation hello
+
+-(void)awakeFromNib
+{
+	 NSRunAlertPanel(@"Message from your Computer", @"Hello, World!", @"Hi!",
+	 nil, nil);
+}
+
+@end</pre>
+#### ColdFusion</h4>
+<pre class="toolbar:2 lang:xhtml decode:true">&lt;cfoutput&gt;Hello, World!&lt;/cfoutput&gt;</pre>
+#### Comal</h4>
+<pre>PRINT "Hello, World!"</pre>
+#### ConTeXt</h4>
+<pre>\starttext
+Hello, world!
+\stoptext</pre>
+#### Crystal</h4>
+<pre class="lang:python decode:true ">puts "Hello World!"
+
+#Object Oriented Style
+
+class Greeter
+  def initialize(@name : String)
+  end
+
+  def salute
+    puts "Hello #{@name}!"
+  end
+end
+
+g = Greeter.new("world")
+g.salute</pre>
+#### Curl</h4>
+<pre>{curl 3.0, 4.0 applet}
+{curl-file-attributes character-encoding = "utf-8"}
+
+Hello, World!</pre>
+<!----------------------->
+
 ### D Alphabet
 <hr>
 
