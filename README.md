@@ -1,8 +1,7 @@
 # Project Hello World 🏳️‍🌈
-Hello world in different Programming languages and even in speaking languages. Hello world file is the first programming file of every programmer.
+Project Hello World is a project that aims to demonstrate the versatility and flexibility of different programming languages by implementing the simple "Hello, World!" program in as many languages as possible. This project is a great resource for programmers who are interested in learning new languages, as it allows them to see how the same basic concept is implemented in a variety of different languages with their own syntax and conventions. The project also serves as a testament to the vastness and diversity of the programming world, as it showcases the different approaches that different languages take to solving problems. Overall, Project Hello World is a valuable resource for programmers of all levels and serves as a fascinating exploration of the many ways in which computers can be programmed to perform tasks.
 
-- [Programming Language]()
-- [Speaking Language]()
+One of the great things about the Project Hello World project is that contributions are open to anyone who is interested in participating. This means that if you are a programmer who knows a language that is not yet represented in the project, you can submit your own version of the "Hello, World!" program in that language. This not only helps to expand the scope and diversity of the project, but it also gives you the opportunity to showcase your skills and share your knowledge with others. To contribute to the project, you can simply fork the repository on GitHub and submit a pull request with your code. The project maintainers will then review your submission and, if it meets the necessary requirements, merge it into the main repository. By participating in the Project Hello World, you can not only learn from others, but also contribute your own knowledge and expertise to the larger programming community.
 
 ## Programming Language - 322
 | Alphabet | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
